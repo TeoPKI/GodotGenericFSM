@@ -11,7 +11,7 @@ func _ready():
 		"Hello World",
 		{
 			StateMachine.BEHAVIOUR_KEY.ENTER : [
-				funcref(self, "hello_world"),
+				funcref(self, "hello_world")
 			]
 	)
 	
