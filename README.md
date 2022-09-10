@@ -2,7 +2,7 @@
 A little different, flexible state machine for Godot. Built around Funcrefs.
 
 Example implementation:
-
+```
 var sm := StateMachine.new()
 	sm.add_state(
 		"Hello World",
@@ -14,3 +14,4 @@ var sm := StateMachine.new()
 	
   func hello_world():
 	  print("hello world");
+```
